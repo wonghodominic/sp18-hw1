@@ -1,16 +1,16 @@
 def squared_sum(a, b)
   # Q1 CODE HERE
-
+  return (a+b)**2
 end
 
 def sort_array_plus_one(a)
   # Q2 CODE HERE
-
+  return a.sort.map { |item| item + 1}
 end
 
 def combine_name(first_name, last_name)
   # Q3 CODE HERE
-
+  return first_name + " " + last_name
 end
 
 def blockin_time(a)
@@ -49,4 +49,14 @@ def scrabble(word)
     z: 10,
   }
   # Q5 CODE HERE
+  ray = word.split("")
+  # for i in ray
+  #   eval i
+  # end
+  # ray.map { |item| item.eval(item) }
+  # total = 0
+  # for i in word do
+  #   total = total+score[i.lower()]
+  # return total
+
 end
